@@ -1,0 +1,23 @@
+Flask==1.1.2
+selenium== 3.141.0
+gunicorn==20.0.4
+idna==2.6
+ipython-genutils==0.2.0
+itsdangerous==0.24
+jsonschema==2.6.0
+jupyter-core==4.4.0
+MarkupSafe==1.0
+nbformat==4.4.0
+numpy==1.14.3
+pandas==1.2.0
+pipenv==11.10.4
+plotly==4.14.1
+python-dateutil==2.7.3
+pytz==2018.4
+requests>=2.20.0
+six==1.11.0
+traitlets==4.3.2
+urllib3==1.22
+virtualenv==15.2.0
+virtualenv-clone==0.3.0
+Werkzeug==0.14.1
