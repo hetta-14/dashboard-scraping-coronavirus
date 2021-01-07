@@ -4,16 +4,12 @@ import plotly.io as pio
 import plotly.graph_objs as go
 import plotly.express as px
 import plotly
-import plotly.offline as py
 import json
 from flask import Flask, render_template
-from flask_cors import CORS
 
-py.init_notebook_mode(connected=False) #True
 pio.renderers.default = "browser"
 
 app = Flask(__name__,template_folder='templates')
-CORS(app)
 
 df = pd.read_csv("covid_data.csv")
 worldometer = pd.read_csv('worldometer_data.csv')
@@ -142,7 +138,6 @@ def create_plot_11():
 fig1 = create_plot_11()
 
 
-
 @app.route("/")
 def index():
     figures = []
@@ -156,7 +151,6 @@ def index():
     figures.append(fig9)
     figures.append(fig8)
     figures.append(fig11)
-    #figures.append(fig12)
     ids = ['figure-{}'.format(i) for i, _ in enumerate(figures)]
     figuresJSON = json.dumps(figures, cls=plotly.utils.PlotlyJSONEncoder)
     return render_template('index.html',ids=ids,figuresJSON=figuresJSON)
