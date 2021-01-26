@@ -6,10 +6,12 @@ import plotly.express as px
 import plotly
 import json
 from flask import Flask, render_template
-
 pio.renderers.default = "browser"
+#Créer l'instance Flask
 
 app = Flask(__name__,template_folder='templates')
+
+#Lire les données du scraping
 
 df = pd.read_csv("covid_data.csv")
 worldometer = pd.read_csv('worldometer_data.csv')
@@ -93,8 +95,6 @@ def create_plot_5():
 fig5 = create_plot_5()
 
 
-
-
 def create_plot_7():
     fig = px.pie(df, values='Total\nRecovered', names='Country,\nOther',
                  title='Percentage of Total Recovered in 20 Most Affected Countries')
@@ -104,7 +104,6 @@ def create_plot_7():
 fig7 = create_plot_7()
 
 def create_plot_8():
-    # Sunburst Chart using Plotly
     fig = px.sunburst(worldometer.head(50), path=['Continent', 'Country/Region', 'WHO Region'], values='Population',
                       color='ActiveCases',
                       color_continuous_scale='RdBu',
@@ -157,5 +156,5 @@ def index():
 
 
 if __name__ == "__main__":
-    print(df)
+    #print(df)
     app.run(debug=True,  port=5000)
