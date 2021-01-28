@@ -1,6 +1,26 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/hajar-ettabaa/]
 
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#set-up">Set up</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#web-scraping">Web scraping</a></li>
+        <li><a href="#launching-the-dashboard-visualization">Launching the dashboard visualization</a></li>
+      </ul>
+    </li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
 # Coronavirus Scraping Dashboard
 ## About the projet
@@ -63,6 +83,11 @@ Contributions are what make the open source community such an amazing place to b
 3. Commit your Changes (`git commit -m 'Add some changes'`)
 4. Push to the Branch (`git push origin  <add-your-branch-name>`)
 5. Open a Pull Request
+
+<!-- CONTACT -->
+## Contact
+
+ETTABAA Hajar - [@hajar-ettabaa](https://www.linkedin.com/in/hajar-ettabaa/) - hajar.etta.7@gmail.com
 
 
 
