@@ -1,15 +1,14 @@
-# dashboard-scraping-coronavirus
-Coronavirus-Dashboard
+# Coronavirus Scraping Dashboard
+
 In this tutoriel, we will be reviewing an application for automating  web scraping of newest health advice from the World Health Organization from the Worldometers website
 and view all data concerning COVID-19 by depoying a dashboard.
-We have 4 main files :
-  1 - get_data.py : scraping data with Selenium.
-  2 - dashboard.py : visualising figures of the dashboard.
-  3 - index.html : HtML code of the dashboard
+- **We have 4 main files:**
+  1. get_data.py : scraping data with Selenium.
+  2. dashboard.py : visualising figures of the dashboard.
+  3. index.html : HtML code of the dashboard
   
 ## set up :
-
-you can clone this public repository by entering the following command into terminal :
+You can clone this public repository by entering the following command into terminal :
 git clone https://github.com/hetta-14/dashboard-scraping-coronavirus/
 ### Requirements 
 Once you've download the code you should install needed libs by typing the command :
