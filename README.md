@@ -37,5 +37,9 @@ We will visualize the following figures on the dashboard :
 ![](https://github.com/hetta-14/dashboard-scraping-coronavirus/blob/master/img/A.PNG)
 ![](https://github.com/hetta-14/dashboard-scraping-coronavirus/blob/master/img/B.PNG)
 ![](https://github.com/hetta-14/dashboard-scraping-coronavirus/blob/master/img/C.PNG)
+![](https://github.com/hetta-14/dashboard-scraping-coronavirus/blob/master/img/D.PNG)
+![](https://github.com/hetta-14/dashboard-scraping-coronavirus/blob/master/img/E.PNG)
+![](https://github.com/hetta-14/dashboard-scraping-coronavirus/blob/master/img/F.PNG)
+
 
 
