@@ -33,7 +33,7 @@ Using Plotly, we are going to plot and visualize the figures from the scraped da
 python dashboard.py
 ```
 We will visualize the following figures on the dashboard :
-![](https://raw.githubusercontent.com/hetta-14/dashboard-scraping-coronavirus/blob/master/img/A.PNG)
-![](https://raw.githubusercontent.com/hetta-14/dashboard-scraping-coronavirus/blob/master/img/B.PNG)
+![](https://github.com//hetta-14/dashboard-scraping-coronavirus/blob/master/img/A.PNG)
+![](https://github.com//hetta-14/dashboard-scraping-coronavirus/blob/master/img/B.PNG)
 
 
