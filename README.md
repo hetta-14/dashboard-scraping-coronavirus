@@ -72,12 +72,9 @@ python dashboard.py
 ```
 The following figures represent a snippet of the dashboard visualizations :
 
-![](https://github.com/hetta-14/dashboard-scraping-coronavirus/blob/master/img/A.PNG)
-![](https://github.com/hetta-14/dashboard-scraping-coronavirus/blob/master/img/B.PNG)
-![](https://github.com/hetta-14/dashboard-scraping-coronavirus/blob/master/img/C.PNG)
-![](https://github.com/hetta-14/dashboard-scraping-coronavirus/blob/master/img/D.PNG)
-![](https://github.com/hetta-14/dashboard-scraping-coronavirus/blob/master/img/E.PNG)
-![](https://github.com/hetta-14/dashboard-scraping-coronavirus/blob/master/img/F.PNG)
+![](https://github.com/hetta-14/dashboard-scraping-coronavirus/blob/master/img/dash.PNG)
+![](https://github.com/hetta-14/dashboard-scraping-coronavirus/blob/master/img/dash_2.PNG)
+![](https://github.com/hetta-14/dashboard-scraping-coronavirus/blob/master/img/dash_3.PNG)
 
 <!-- CONTRIBUTING -->
 ## Contributing
