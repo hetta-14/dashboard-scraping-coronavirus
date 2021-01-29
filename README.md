@@ -29,7 +29,7 @@
 In this project, we will be reviewing an application for automating  web scraping of newest health advice from the World Health Organization from the Worldometers website
 and visualize data concerning COVID-19 by depoying a dashboard.
 
-Link to the application deployed in Heroku : [@covid-dashboard](https://ettabaa-hajar-covid.herokuapp.com/) https://ettabaa-hajar-covid.herokuapp.com/ 
+Link to the application deployed in Heroku : [@covid-dashboard](https://ettabaa-hajar-covid.herokuapp.com/) : https://ettabaa-hajar-covid.herokuapp.com/ 
 
 
 **We have 3 main files :**
